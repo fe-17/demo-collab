@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="block py-2">
+              <img src="transparan.png" alt="Logo" width="250" height="250" style="float: left" />
+            </a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+            
+            <div class="flex items-center px-4">
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none sm:px-0">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#about" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-primary">Tentang Kami</a>
+                </li>
+                <li class="group">
+                  <a href="#" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-primary">Layanan</a>
+                </li>
+                <li class="group">
+                  <a href="#" class="text-base font-semibold text-white bg-secondary flex items-center mx-8 py-2 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
+                    <img src="user.png" alt="User" width="25">
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+            </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Home section start -->
+    <section id="home" class="pt-28">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-20 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">
+              Selamat Datang di
+              <span class="block font-extrabold text-slate-900 text-5xl lg:text-7xl"><span class="text-mental">Mental</span><span class="text-meds"> Meds</span></span>
+            </h1>
+            <p class="font-normal text-slate-700 mb-8 leading-relaxed">Sebuah klinik layanan psikologi. Berfokus pada kesehatan mental dewasa, remaja & anak melalui berbagai layanan konseling dan terapi.</p>
+            <a href="#" class="text-sm font-semibold text-white bg-secondary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Jadwalkan Konsultasi</a>
+          </div>
+          <div class="w-full self-end lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+                <img width="420" height="420" src="icon.png" alt="Gambar" class="max-w-full mx-auto"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home section end -->
+
+    <!-- Why section start -->
+    <section id="why" class="pb-10 bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-primary via-secondary to-white">
+      <div class="container">
+        <div class="w-full px-4 mt-32 pt-16">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h3 class="font-bold text-slate-100 text-sm mb-2 lg:text-xl">Why choose us?</h3>
+            <h2 class="font-bold text-white text-3xl mb-4 lg:text-5xl">Kenapa memilih <u>kami</u>?</h2>
+          </div>
+        </div>
+        <div class="div w-full px-4 mx-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+          <!-- Card 1 -->
+          <div class="mb-12 p-4 md:w-1/3">
+            <div class="flex justify-center">
+              <div class="rounded-md shadow-md bg-white max-w-sm hover:bg-slate-50 sm:rounded-md max-w-xs ">
+                  <img class="pl-32 pt-8 md:items-center" width="200" src="img/1.png" alt="Waktu" />
+                <div class="p-6 text-center">
+                  <h5 class="text-gray-900 text-xl font-medium mb-2">Fleksibel</h5>
+                  <p class="text-gray-700 text-sm mb-4">Waktu yang fleksibel menyesuaikan jadwal anda yang padat.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="mb-12 p-4 md:w-1/3">
+            <div class="flex justify-center">
+              <div class="rounded-md shadow-md bg-white max-w-sm hover:bg-slate-50 sm:rounded-md max-w-xs">
+                  <img class="pl-32 pt-8" width="200" src="img/2.png" alt="Waktu" />
+                <div class="p-6 text-center">
+                  <h5 class="text-gray-900 text-xl font-medium mb-2">Pelayanan Terbaik</h5>
+                  <p class="text-gray-700 text-sm mb-4">Pengguna menjadi fokus utama kami.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="mb-12 p-4 md:w-1/3">
+            <div class="flex justify-center">
+              <div class="rounded-md shadow-md bg-white max-w-sm hover:bg-slate-50 sm:rounded-md max-w-xs">
+                  <img class="pl-32 pt-8" width="200" src="img/3.png" alt="Profesional" />
+                <div class="p-6 text-center">
+                  <h5 class="text-gray-900 text-xl font-medium mb-2">Psikolog Profesional</h5>
+                  <p class="text-gray-700 text-sm mb-4">Psikolog kami sudah bersertifikasi, Nasional maupun Internasional.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 (end) -->
+        </div>
+    </section>
+    <!-- Why section end -->
+
+    <!-- Profile Klinik Start -->
+      <!-- <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-16 mb-10 lg:w-1/2">
+                    <h4 class="font-bold text-secondary text-lg mb-3">Klinik</h4>
+                    <h2 class="font-extrabold text-primary text-6xl mb-2 max-w-md lg:text-6xl">Kami berada disekitar kalian</h2>
+                    <p class="font-normal text-base text-slate-500 max-w-xl lg:text-lg">Temukan ahli kami disekitar anda!</p>
+                </div>
+                <div class="w-full self-end justify-center pb-32 lg:w-1/2 -right-1/3">
+                <div class="relative float-right">
+                <div class="max-w-sm bg-white rounded-md ring-8 ring-white shadow-lg dark:border-gray-700 lg:w-1/2" style="">
+                  <a href="#">
+                      <img class="rounded-2xl" src="img/Kemayoran.JPG" alt="Info"/>
+                  </a>
+                  <div class="p-2">
+                      <a href="#">
+                          <h5 class="mb-1 text-md font-extrabold text-center text-gray-900 dark:text-white">Puskesmas Kemayoran</h5>
+                      </a>
+                      <p class=" font-normal text-sm text-center text-gray-700 dark:text-gray-400">Jl. Harapan Mulia No.1, RT.12/RW.4</p>
+                  </div>
+                  <div>
+                    <span class="absolute -bottom-40 -z-10 -right-1/2 -translate-x-1/2">
+                      <img width="500" height="500" src="Variate.png" alt="Gambar" transform="translate(100 100)" />
+                    </span>
+                  </div>
+                  <div class="relative float-right">
+                    <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Profile Klinik End -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
